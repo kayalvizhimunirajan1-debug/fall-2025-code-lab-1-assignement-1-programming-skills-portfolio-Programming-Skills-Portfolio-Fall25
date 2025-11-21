@@ -1,0 +1,5 @@
+answer=input("What is the capital of France?")
+if answer=="paris":
+    print("correct! well done.")
+else:
+    print("The answer is wrong, The correct answer is paris")
