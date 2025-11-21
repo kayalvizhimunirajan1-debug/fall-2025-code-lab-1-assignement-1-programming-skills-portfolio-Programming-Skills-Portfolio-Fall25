@@ -1,0 +1,8 @@
+name=['Jake','Zac','Ian','Ron','Sam','Dave']
+search=input('enter the name to search:')
+for name in name:
+    if name==search:
+        print(search,'is found')
+        break
+else:
+    print(search,'is not found')
